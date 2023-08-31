@@ -15,6 +15,7 @@ public class StatsServiceTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void testAverage() {
         StatsService service = new StatsService();
@@ -26,6 +27,7 @@ public class StatsServiceTest {
         Assertions.assertEquals(expected, actual);
 
     }
+
     @Test
     public void testMaxSales() {
         StatsService service = new StatsService();
@@ -36,6 +38,7 @@ public class StatsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testBellowAverage() {
         StatsService service = new StatsService();
@@ -46,6 +49,7 @@ public class StatsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testAboveAverage() {
         StatsService service = new StatsService();
@@ -56,6 +60,7 @@ public class StatsServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testMinSales() {
         StatsService service = new StatsService();
